@@ -1,0 +1,129 @@
+
+.Inicio{
+     background-color: white; color: darkolivegreen;
+    
+}
+section{background-image: url("imagem/logobody.png");}
+ 
+
+nav ul {list-style-type: none;}
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "embed code", sans-serif;
+    
+ }
+
+.img {
+     float:right;
+
+}
+ 
+
+
+
+
+  
+ nav{
+     background-color: #d9d9d9;
+     flex: 1;
+     display: flex;
+     justify-content: center;
+    
+ }
+ 
+ nav li{
+     display: inline-block;
+     
+ }
+ 
+ nav li a{
+     display: inline-block;
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     padding: 25px;
+ }
+ 
+ nav li a:hover{
+     background-color:#227856;
+ }
+ 
+ .dropdown-menu{
+     position: absolute;
+     box-shadow: 0 0 2px black;
+     display: none;
+ }
+ 
+ .dropdown-menu a{
+     display: block;
+     color: black;}
+
+header {
+    display: flex;
+    flex: 1; 
+    background-color: #d9d9d9;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 0 30px;
+}
+
+.logo {
+    background-color:#d9d9d9;
+
+}
+
+.login{ justify-content:center;
+align-items: center;
+padding: 5px 20px 5px 20px;
+border-radius: 15px;
+margin-right:  20px;
+background-color:#35A378;
+border: 0;
+color: white;
+}
+
+.titulo {
+    font-weight: 900;
+    font-size: 90px;
+}
+.subtitulo{
+    font: weight 100px; 
+    font-size: 40;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+.linha2{
+     font: weight 5px; 
+    font-size: 20;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 35px 10px 65px;
+ line-height: 5px;
+
+}
+
+ 
+
+
+ .pedido{
+    justify-content:center;
+    align-items: center;
+padding: 15px 30px 15px 30px;
+border-radius: 25px;
+background-color:darkgreen;
+margin-left:575px;
+color: white;
+font-size: 25px;
+ border: 0;
+ 
+}
+
+ .trabalho{
+    font-weight: 700;
+    font-size: 90px;
+ }
